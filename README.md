@@ -1,6 +1,7 @@
 ## Recreating Conway's Game of Life using JavaScript
 
 Inspired by The Coding Train
+
 https://www.youtube.com/watch?v=FWSR_7kZuYg&t=6s
 
 ### Steps
@@ -23,3 +24,8 @@ https://www.youtube.com/watch?v=FWSR_7kZuYg&t=6s
    down right
 6. create new grid
 7. replace previous grid with new grid
+
+###Rules
+0-1
+exactly 2
+3 or more
