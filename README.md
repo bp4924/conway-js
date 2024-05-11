@@ -26,6 +26,14 @@ https://www.youtube.com/watch?v=FWSR_7kZuYg&t=6s
 7. replace previous grid with new grid
 
 ###Rules
-0-1
-exactly 2
-3 or more
+
+Birth Rule
+Empty cell with exactly 3 live neighbors will become live
+
+Death Rule
+
+1. A live cell with 0 or 1 live neighbors will die from isolation
+2. A live cell with 4 or more live neighbors will die from overcrowding
+
+Survival Rule
+A live cell with 2 or 3 live neighbors will remain alive
